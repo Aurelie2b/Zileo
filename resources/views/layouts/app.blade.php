@@ -26,6 +26,9 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     Zileo
                 </a>
+                <a class="navbar text-white" href="{{ url('/displayAnimals') }}">
+                    Animaux
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
